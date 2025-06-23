@@ -1,0 +1,43 @@
+{
+  "name": "avail-nexus-scaffold-widget",
+  "version": "1.0.0",
+  "description": "Scaffold-ETH 2 extension for Avail Nexus SDK integration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/avail-nexus-scaffold-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/avail-nexus-scaffold-widget/issues"
+  },
+  "homepage": "https://github.com/yourusername/avail-nexus-scaffold-widget#readme",
+  "scripts": {
+    "build": "echo 'Extension built'",
+    "test": "echo 'No tests specified'",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "scaffold-eth",
+    "avail",
+    "nexus",
+    "cross-chain",
+    "bridge",
+    "transfer",
+    "widget"
+  ],
+  "author": "Scaffold-ETH 2 Community",
+  "license": "MIT",
+  "dependencies": {
+    "avail-nexus-sdk": "^0.0.4-dev.1",
+    "viem": "^2.0.0",
+    "react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "next": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+} 
