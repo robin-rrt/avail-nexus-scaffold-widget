@@ -2,33 +2,26 @@
 
 A comprehensive extension for Scaffold-ETH 2 that integrates the Avail Nexus SDK for cross-chain token operations.
 
-## Features
+## Prerequisites
+- Node: `^=20.19.2`
 
-- **Cross-Chain Transfers**: Transfer tokens across multiple supported chains
-- **Bridge Operations**: Bridge tokens between different chains
-- **Unified Balance Display**: View your portfolio across all supported chains
-- **Simulation Support**: Simulate transfers and bridge operations before execution
-- **Privy Integration**: Seamless wallet integration with Privy
-- **Real-time Status Updates**: Track transaction status and results
+# Quickstart
 
-## Supported Chains
+1. Run the command below to initialize a new Scaffold-ETH project with the Avail Nexus Extension
+```
+npx create-eth@latest -e robin-rrt/avail-nexus-scaffold-widget:main
+```
 
-- Ethereum
-- Optimism
-- Polygon
-- Arbitrum
-- Avalanche
-- Base
-- Linea
-- Scroll
+2. Start running the project on `localhost`
+```
+yarn start
 
-## Supported Tokens
+```
 
-- ETH
-- USDC
-- USDT
+3. Navigate to `/nexus' route for using Nexus related functions on Scaffold ETH
 
-## Installation
+
+## Manual Installation
 
 1. Copy the extension files to your Scaffold-ETH 2 project
 2. Install the required dependencies:
@@ -152,6 +145,32 @@ interface BridgeParams {
   chainId: SUPPORTED_CHAINS_IDS;
 }
 ```
+
+## Features
+
+- **Cross-Chain Transfers**: Transfer tokens across multiple supported chains
+- **Bridge Operations**: Bridge tokens between different chains
+- **Unified Balance Display**: View your portfolio across all supported chains
+- **Simulation Support**: Simulate transfers and bridge operations before execution
+- **Privy Integration**: Seamless wallet integration with Privy
+- **Real-time Status Updates**: Track transaction status and results
+
+## Supported Chains
+
+- Ethereum
+- Optimism
+- Polygon
+- Arbitrum
+- Avalanche
+- Base
+- Linea
+- Scroll
+
+## Supported Tokens
+
+- ETH
+- USDC
+- USDT
 
 ## Configuration
 
