@@ -18,7 +18,7 @@ yarn start
 
 ```
 
-3. Navigate to `/nexus' route for using Nexus related functions on Scaffold ETH
+3. Navigate to `/nexus` route for using Nexus related functions on Scaffold ETH
 
 
 ## Manual Installation
@@ -27,7 +27,7 @@ yarn start
 2. Install the required dependencies:
 
 ```bash
-yarn add avail-nexus-sdk@0.0.4-dev.1 viem
+yarn add avail-nexus-sdk@0.0.10 viem
 ```
 
 3. Add the NexusProvider to your app's provider hierarchy
@@ -163,7 +163,6 @@ interface BridgeParams {
 - Arbitrum
 - Avalanche
 - Base
-- Linea
 - Scroll
 
 ## Supported Tokens

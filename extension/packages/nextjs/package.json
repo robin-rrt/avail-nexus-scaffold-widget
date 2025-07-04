@@ -1,0 +1,15 @@
+{
+  "name": "@avail-nexus-scaffold-extension/nextjs",
+  "version": "1.0.0",
+  "description": "Next.js package for Avail Nexus Scaffold-ETH 2 Extension",
+  "private": true,
+  "dependencies": {
+    "avail-nexus-sdk": "^0.0.10",
+    "@avail-project/nexus": "^0.1.0",
+    "viem": "^2.0.0"
+  },
+  "peerDependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0"
+  }
+} 

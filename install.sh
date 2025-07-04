@@ -25,7 +25,7 @@ cp -r extension/packages/nextjs/app/nexus/* packages/nextjs/app/nexus/
 # Install dependencies
 echo "📦 Installing dependencies..."
 cd packages/nextjs
-yarn add avail-nexus-sdk@0.0.4-dev.1 viem
+yarn add avail-nexus-sdk@0.0.10 viem
 
 # Check if NexusProvider is already in the app provider
 if ! grep -q "NexusProvider" packages/nextjs/app/providers.tsx; then

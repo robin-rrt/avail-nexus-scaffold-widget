@@ -9,9 +9,9 @@ import { InitNexus } from "./InitNexus";
 import { useNexusSdk } from "./NexusContext";
 import { SUPPORTED_CHAINS, SUPPORTED_TOKENS, SUPPORTED_CHAINS_IDS } from "avail-nexus-sdk";
 import { createPublicClient, http } from "viem";
-import { base, mainnet } from "viem/chains";
+import { base } from "viem/chains";
 import type { TransferParams, SimulationResult } from 'avail-nexus-sdk';
-import { useAccount } from "wagmi";
+
 
 // Chain options for select
 const CHAIN_OPTIONS = [
@@ -21,7 +21,6 @@ const CHAIN_OPTIONS = [
   { id: SUPPORTED_CHAINS.ARBITRUM, name: "Arbitrum" },
   { id: SUPPORTED_CHAINS.AVALANCHE, name: "Avalanche" },
   { id: SUPPORTED_CHAINS.BASE, name: "Base" },
-  { id: SUPPORTED_CHAINS.LINEA, name: "Linea" },
   { id: SUPPORTED_CHAINS.SCROLL, name: "Scroll" },
 ];
 

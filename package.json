@@ -28,16 +28,16 @@
   "author": "Scaffold-ETH 2 Community",
   "license": "MIT",
   "dependencies": {
-    "avail-nexus-sdk": "^0.0.4-dev.1",
-    "viem": "^2.0.0",
-    "react": "^18.0.0"
+    "avail-nexus-sdk": "^0.0.10",
+    "react": "^18.0.0",
+    "viem": "^2.0.0"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
-    "next": "^14.0.0"
+    "next": "^14.0.0",
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "typescript": "^5.0.0"
   }
-} 
+}

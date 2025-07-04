@@ -37,11 +37,13 @@ export function InitNexus() {
       if (!window.ethereum) throw new Error("No EVM wallet found");
       const provider = window.ethereum;
       const sdkInstance = new NexusSDK();
+      console.log("Initializing Nexus SDK...");
       await sdkInstance.initialize(provider); //mainnet
+      console.log("Nexus SDK initialized successfully");
       setSdk(sdkInstance);
     } catch (err) {
-      setError("Failed to initialize Nexus SDK");
-      console.error(err);
+      console.error("Failed to initialize Nexus SDK:", err);
+      setError("Failed to initialize Nexus SDK: " + (err as Error).message);
     } finally {
       setIsInitializing(false);
     }
@@ -64,7 +66,7 @@ export function InitNexus() {
         </button>
       ) : (
         <div className="text-success">
-          Connected: {address}
+          Connected: {address ? `${address.slice(0, 6)}...${address.slice(-4)}` : "Unknown"}
           <div className="my-2">
             <button className="btn btn-accent mb-2" onClick={handleInitNexus} disabled={isInitializing || !!sdk}>
               {isInitializing ? "Initializing..." : sdk ? "Nexus Initialized" : "Initialize Nexus"}

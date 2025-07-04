@@ -1,0 +1,24 @@
+{
+  "name": "avail-nexus-scaffold-extension",
+  "version": "1.0.0",
+  "description": "Scaffold-ETH 2 extension for Avail Nexus SDK integration",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo 'Extension built'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "scaffold-eth",
+    "avail",
+    "nexus",
+    "cross-chain",
+    "bridge",
+    "transfer",
+    "widget"
+  ],
+  "author": "@robin-rrt",
+  "license": "MIT"
+} 
