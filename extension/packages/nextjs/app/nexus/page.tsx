@@ -11,6 +11,7 @@ import { SUPPORTED_CHAINS, SUPPORTED_TOKENS, SUPPORTED_CHAINS_IDS } from "avail-
 import { createPublicClient, http } from "viem";
 import { base } from "viem/chains";
 import type { TransferParams, SimulationResult } from 'avail-nexus-sdk';
+import { useAccount } from "wagmi";
 
 
 // Chain options for select
